@@ -1,0 +1,6 @@
+{
+  "name": "Godspeed Taxi Services",
+  "description": "24*7 Delhi car rental and outstation cab booking from 125 Malviya Nagar, New Delhi. Call or WhatsApp 8830076310 for IGI Airport transfers, Delhi local packages, and pan-India outstation taxis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
