@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {MessageCircle, Phone, Users} from 'lucide-react';
+import dispatchCoordinatorImg from '../assets/images/about_dispatch_coordinator_1794657016355.jpg';
 import {
   BRAND_NAME,
   OFFICE_ADDRESS_FULL,
@@ -9,8 +10,7 @@ import {
   buildWhatsAppLink,
 } from '../data/taxiData';
 
-const DISPATCH_IMAGE =
-  '/src/assets/images/about_dispatch_coordinator_1794657016355.jpg';
+const DISPATCH_IMAGE = dispatchCoordinatorImg;
 
 const SERVICE_PILLARS = [
   {

@@ -1,3 +1,8 @@
+import fleetSuvMpvImg from '../assets/images/fleet_suv_mpv_1794657014566.jpg';
+import fleetComfortSedanImg from '../assets/images/fleet_comfort_sedan_1794657015605.jpg';
+import fleetEconomyHatchbackImg from '../assets/images/fleet_economy_hatchback_1794657015780.jpg';
+import fleetTempoTravellerImg from '../assets/images/fleet_tempo_traveller_1794657016139.jpg';
+
 export const BRAND_NAME = 'Godspeed Taxi Services';
 export const PHONE_DISPLAY = '8830076310';
 export const PHONE_TEL = 'tel:+918830076310';
@@ -40,7 +45,7 @@ export const FLEET_VEHICLES: FleetVehicle[] = [
     description:
       'Built for family highway journeys, mountain climbs to Shimla or Manali, and comfortable multi-city outstation tours with dual-zone AC.',
     highlights: ['Dual-row AC vents', 'Captains / folding rear seats', 'Roof carrier option on request'],
-    image: '/src/assets/images/fleet_suv_mpv_1794657014566.jpg',
+    image: fleetSuvMpvImg,
     imageAlt: 'White 7-seater SUV family touring car on a scenic North Indian highway overlook',
     bentoSpan: 'wide',
   },
@@ -57,7 +62,7 @@ export const FLEET_VEHICLES: FleetVehicle[] = [
     description:
       'Balanced cabin comfort and generous boot space for Mathura, Vrindavan, Agra, Jaipur, and executive IGI Airport pickups.',
     highlights: ['Dedicated boot space', 'Chilled AC cabin', 'Ideal for 2–4 travellers'],
-    image: '/src/assets/images/fleet_comfort_sedan_1794657015605.jpg',
+    image: fleetComfortSedanImg,
     imageAlt: 'White compact AC sedan taxi parked outside a modern Delhi airport arrival terminal',
     bentoSpan: 'standard',
   },
@@ -74,7 +79,7 @@ export const FLEET_VEHICLES: FleetVehicle[] = [
     description:
       'Value-focused AC cabs starting at ₹11/km* for solo flyers, couples, South Delhi city errands, and budget day trips.',
     highlights: ['Lowest per-km tariff', 'Nimble NCR city maneuvering', 'Clean AC interiors'],
-    image: '/src/assets/images/fleet_economy_hatchback_1794657015780.jpg',
+    image: fleetEconomyHatchbackImg,
     imageAlt: 'White compact hatchback city cab on a sunlit residential street in South Delhi',
     bentoSpan: 'standard',
   },
@@ -91,7 +96,7 @@ export const FLEET_VEHICLES: FleetVehicle[] = [
     description:
       'Spacious high-roof group coach for wedding guests, corporate offsites, pilgrimage circuits, and Himachal or Uttarakhand expeditions.',
     highlights: ['High-back pushback seats', 'Full aisle headroom', 'Dedicated luggage carrier'],
-    image: '/src/assets/images/fleet_tempo_traveller_1794657016139.jpg',
+    image: fleetTempoTravellerImg,
     imageAlt: 'White 12-seater executive Tempo Traveller van on a clear Himalayan highway',
     bentoSpan: 'wide',
   },

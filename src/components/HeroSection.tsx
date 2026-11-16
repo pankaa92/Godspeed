@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {ArrowRight, Car, MessageCircle, Phone} from 'lucide-react';
+import heroDelhiCabImg from '../assets/images/hero_delhi_cab_1794657014587.jpg';
 import {
   PHONE_DISPLAY,
   PHONE_TEL,
@@ -16,7 +17,7 @@ const HERO_CORRIDORS = [
   'Manali',
 ];
 
-const HERO_IMAGE = '/src/assets/images/hero_delhi_cab_1794657014587.jpg';
+const HERO_IMAGE = heroDelhiCabImg;
 
 export const HeroSection: React.FC = () => {
   const [imgError, setImgError] = useState(false);
